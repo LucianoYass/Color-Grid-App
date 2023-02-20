@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pixel Art</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="opciones">
+            <div class="op-wrapper">
+                <div class="slider">
+                    <label for="rango-ancho">Ancho del grid</label>
+                    <input type="range" id="rango-ancho" min="1" max="35">
+                    <span id="valor-ancho">00</span>
+                </div>
+                <div class="slider">
+                    <label for="rango-alto">Alto del grid</label>
+                    <input type="range" id="rango-alto" min="1" max="35">
+                    <span id="valor-alto">00</span>
+                </div>
+            </div>
+
+            <div class="op-wrapper">
+                <button id="aceptar-grid">Crear grid</button>
+                <button id="limpiar-grid">Limpiar grid</button>
+                <input type="color" id="color-input">
+                <button id="borrar-btn">Borrar</button>
+                <button id="pintar-btn">Pintar</button>
+            </div>
+
+        </div>
+        <div class="container">
+
+        </div>
+    </div>
+
+    <script defer src="scripts.js"></script>
+</body>
+</html>
