@@ -74,6 +74,10 @@ input[type="color"]::-moz-color-swatch{
     display: flex;
 }
 
+.subtitulo {
+    font-size: 11px;
+}
+
 @media only screen and (max-width: 768px) {
     .gridCol{
         height: 0.8em;
